@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClrPlus.Console</name>
+    </assembly>
+    <members>
+        <member name="M:ClrPlus.Console.AsyncConsoleProgram.Fail(System.String,System.Object[])">
+            <summary>
+                Displays a failure message.
+            </summary>
+            <param name="text"> The text format string. </param>
+            <param name="par"> The parameters for the formatted string. </param>
+            <returns> returns 1 (usually passed out as the process end code) </returns>
+        </member>
+        <member name="M:ClrPlus.Console.AsyncConsoleProgram.Help">
+            <summary>
+                Displays the program help.
+            </summary>
+            <returns> returns 0. </returns>
+        </member>
+        <member name="M:ClrPlus.Console.AsyncConsoleProgram.Logo">
+            <summary>
+                Displays the program logo.
+            </summary>
+        </member>
+        <member name="T:ClrPlus.Console.ConsoleApi">
+            <summary>
+                Declarations of some Console API functions and structures.
+            </summary>
+        </member>
+    </members>
+</doc>
